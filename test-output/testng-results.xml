@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteAcademico" duration-ms="1505650" started-at="2021-10-25T13:57:40 BOT" finished-at="2021-10-25T14:22:45 BOT">
+    <groups>
+    </groups>
+    <test name="Test_VerifyForm_Registro-Exitoso" duration-ms="108887" started-at="2021-10-25T13:57:40 BOT" finished-at="2021-10-25T13:59:29 BOT">
+      <class name="Tests.VerifyForm_1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_1@7fac631b]" name="setup" is-config="true" duration-ms="64758" started-at="2021-10-25T13:57:40 BOT" finished-at="2021-10-25T13:58:45 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_1@7fac631b]" name="verifyCorrectForm" duration-ms="43912" started-at="2021-10-25T13:58:45 BOT" finished-at="2021-10-25T13:59:29 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_1@7fac631b]" name="quit" is-config="true" duration-ms="170" started-at="2021-10-25T13:59:29 BOT" finished-at="2021-10-25T13:59:29 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_1 -->
+    </test> <!-- Test_VerifyForm_Registro-Exitoso -->
+    <test name="Test_VerifyForm_Mensaje-Error_Nombre-Vacio" duration-ms="142574" started-at="2021-10-25T13:59:29 BOT" finished-at="2021-10-25T14:01:51 BOT">
+      <class name="Tests.VerifyForm_2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_2@7c29daf3]" name="setup" is-config="true" duration-ms="72574" started-at="2021-10-25T13:59:29 BOT" finished-at="2021-10-25T14:00:41 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_2@7c29daf3]" name="verifyCorrectForm" duration-ms="69923" started-at="2021-10-25T14:00:41 BOT" finished-at="2021-10-25T14:01:51 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_2@7c29daf3]" name="quit" is-config="true" duration-ms="74" started-at="2021-10-25T14:01:51 BOT" finished-at="2021-10-25T14:01:51 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_2 -->
+    </test> <!-- Test_VerifyForm_Mensaje-Error_Nombre-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Apellido-Vacio" duration-ms="137737" started-at="2021-10-25T14:01:51 BOT" finished-at="2021-10-25T14:04:09 BOT">
+      <class name="Tests.VerifyForm_3">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_3@2a17b7b6]" name="setup" is-config="true" duration-ms="60194" started-at="2021-10-25T14:01:51 BOT" finished-at="2021-10-25T14:02:52 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_3@2a17b7b6]" name="verifyCorrectForm" duration-ms="77424" started-at="2021-10-25T14:02:52 BOT" finished-at="2021-10-25T14:04:09 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_3@2a17b7b6]" name="quit" is-config="true" duration-ms="116" started-at="2021-10-25T14:04:09 BOT" finished-at="2021-10-25T14:04:09 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_3 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Apellido-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_CodigoSis-Vacio" duration-ms="219262" started-at="2021-10-25T14:04:09 BOT" finished-at="2021-10-25T14:07:48 BOT">
+      <class name="Tests.VerifyForm_4">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_4@131276c2]" name="setup" is-config="true" duration-ms="131064" started-at="2021-10-25T14:04:09 BOT" finished-at="2021-10-25T14:06:20 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_4@131276c2]" name="verifyCorrectForm" duration-ms="88060" started-at="2021-10-25T14:06:20 BOT" finished-at="2021-10-25T14:07:48 BOT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at Tests.VerifyForm_4.verifyCorrectForm(VerifyForm_4.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_4@131276c2]" name="quit" is-config="true" duration-ms="134" started-at="2021-10-25T14:07:48 BOT" finished-at="2021-10-25T14:07:48 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_4 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_CodigoSis-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Telefono-Vacio" duration-ms="92320" started-at="2021-10-25T14:07:48 BOT" finished-at="2021-10-25T14:09:21 BOT">
+      <class name="Tests.VerifyForm_5">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_5@23faf8f2]" name="setup" is-config="true" duration-ms="36861" started-at="2021-10-25T14:07:48 BOT" finished-at="2021-10-25T14:08:25 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_5@23faf8f2]" name="verifyCorrectForm" duration-ms="55287" started-at="2021-10-25T14:08:25 BOT" finished-at="2021-10-25T14:09:21 BOT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at Tests.VerifyForm_5.verifyCorrectForm(VerifyForm_5.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_5@23faf8f2]" name="quit" is-config="true" duration-ms="169" started-at="2021-10-25T14:09:21 BOT" finished-at="2021-10-25T14:09:21 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_5 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Telefono-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Contrasenia-Vacio" duration-ms="140052" started-at="2021-10-25T14:09:21 BOT" finished-at="2021-10-25T14:11:41 BOT">
+      <class name="Tests.VerifyForm_6">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_6@56aac163]" name="setup" is-config="true" duration-ms="96401" started-at="2021-10-25T14:09:21 BOT" finished-at="2021-10-25T14:10:57 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_6@56aac163]" name="verifyCorrectForm" duration-ms="43516" started-at="2021-10-25T14:10:57 BOT" finished-at="2021-10-25T14:11:41 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_6@56aac163]" name="quit" is-config="true" duration-ms="133" started-at="2021-10-25T14:11:41 BOT" finished-at="2021-10-25T14:11:41 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_6 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Contrasenia-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Email-Vacio" duration-ms="118585" started-at="2021-10-25T14:11:41 BOT" finished-at="2021-10-25T14:13:39 BOT">
+      <class name="Tests.VerifyForm_7">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_7@167fdd33]" name="setup" is-config="true" duration-ms="49817" started-at="2021-10-25T14:11:41 BOT" finished-at="2021-10-25T14:12:31 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_7@167fdd33]" name="verifyCorrectForm" duration-ms="68650" started-at="2021-10-25T14:12:31 BOT" finished-at="2021-10-25T14:13:39 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_7@167fdd33]" name="quit" is-config="true" duration-ms="114" started-at="2021-10-25T14:13:39 BOT" finished-at="2021-10-25T14:13:39 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_7 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Email-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Rol-Vacio" duration-ms="67172" started-at="2021-10-25T14:13:39 BOT" finished-at="2021-10-25T14:14:47 BOT">
+      <class name="Tests.VerifyForm_8">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_8@3712b94]" name="setup" is-config="true" duration-ms="30558" started-at="2021-10-25T14:13:39 BOT" finished-at="2021-10-25T14:14:10 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_8@3712b94]" name="verifyCorrectForm" duration-ms="36489" started-at="2021-10-25T14:14:10 BOT" finished-at="2021-10-25T14:14:46 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_8@3712b94]" name="quit" is-config="true" duration-ms="123" started-at="2021-10-25T14:14:46 BOT" finished-at="2021-10-25T14:14:47 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_8 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Rol-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Unidad-Vacio" duration-ms="96197" started-at="2021-10-25T14:14:47 BOT" finished-at="2021-10-25T14:16:23 BOT">
+      <class name="Tests.VerifyForm_9">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_9@536aaa8d]" name="setup" is-config="true" duration-ms="29983" started-at="2021-10-25T14:14:47 BOT" finished-at="2021-10-25T14:15:17 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_9@536aaa8d]" name="verifyCorrectForm" duration-ms="66123" started-at="2021-10-25T14:15:17 BOT" finished-at="2021-10-25T14:16:23 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_9@536aaa8d]" name="quit" is-config="true" duration-ms="87" started-at="2021-10-25T14:16:23 BOT" finished-at="2021-10-25T14:16:23 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_9 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Unidad-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Facultad-Vacio" duration-ms="116194" started-at="2021-10-25T14:16:23 BOT" finished-at="2021-10-25T14:18:19 BOT">
+      <class name="Tests.VerifyForm_10">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_10@57e1b0c]" name="setup" is-config="true" duration-ms="44412" started-at="2021-10-25T14:16:23 BOT" finished-at="2021-10-25T14:17:07 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_10@57e1b0c]" name="verifyCorrectForm" duration-ms="71600" started-at="2021-10-25T14:17:07 BOT" finished-at="2021-10-25T14:18:19 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_10@57e1b0c]" name="quit" is-config="true" duration-ms="179" started-at="2021-10-25T14:18:19 BOT" finished-at="2021-10-25T14:18:19 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_10 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Facultad-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Carrera-Vacio" duration-ms="68442" started-at="2021-10-25T14:18:19 BOT" finished-at="2021-10-25T14:19:27 BOT">
+      <class name="Tests.VerifyForm_11">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_11@5faeada1]" name="setup" is-config="true" duration-ms="21190" started-at="2021-10-25T14:18:19 BOT" finished-at="2021-10-25T14:18:40 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_11@5faeada1]" name="verifyCorrectForm" duration-ms="46997" started-at="2021-10-25T14:18:40 BOT" finished-at="2021-10-25T14:19:27 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_11@5faeada1]" name="quit" is-config="true" duration-ms="254" started-at="2021-10-25T14:19:27 BOT" finished-at="2021-10-25T14:19:27 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_11 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Carrera-Vacio -->
+    <test name="Tests.VerifyForm_Mensaje-Error_CodigoSis-Repetido" duration-ms="117893" started-at="2021-10-25T14:19:27 BOT" finished-at="2021-10-25T14:21:25 BOT">
+      <class name="Tests.VerifyForm_12">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_12@52feb982]" name="setup" is-config="true" duration-ms="30115" started-at="2021-10-25T14:19:27 BOT" finished-at="2021-10-25T14:19:58 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_12@52feb982]" name="verifyCorrectForm" duration-ms="87576" started-at="2021-10-25T14:19:58 BOT" finished-at="2021-10-25T14:21:25 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_12@52feb982]" name="quit" is-config="true" duration-ms="199" started-at="2021-10-25T14:21:25 BOT" finished-at="2021-10-25T14:21:25 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_12 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_CodigoSis-Repetido -->
+    <test name="Tests.VerifyForm_Mensaje-Error_Correo-Repetido" duration-ms="80189" started-at="2021-10-25T14:21:25 BOT" finished-at="2021-10-25T14:22:45 BOT">
+      <class name="Tests.VerifyForm_13">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.VerifyForm_13@80503]" name="setup" is-config="true" duration-ms="40298" started-at="2021-10-25T14:21:25 BOT" finished-at="2021-10-25T14:22:06 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCorrectForm()[pri:0, instance:Tests.VerifyForm_13@80503]" name="verifyCorrectForm" duration-ms="39720" started-at="2021-10-25T14:22:06 BOT" finished-at="2021-10-25T14:22:45 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectForm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Tests.VerifyForm_13@80503]" name="quit" is-config="true" duration-ms="168" started-at="2021-10-25T14:22:45 BOT" finished-at="2021-10-25T14:22:45 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Tests.VerifyForm_13 -->
+    </test> <!-- Tests.VerifyForm_Mensaje-Error_Correo-Repetido -->
+  </suite> <!-- SuiteAcademico -->
+</testng-results>

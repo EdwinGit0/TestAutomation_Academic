@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAcademico">
+  <test name="Test_VerifyForm_Registro-Exitoso">
+    <classes>
+      <class name="Tests.VerifyForm_1"/>
+    </classes>
+  </test> 
+  <test name="Test_VerifyForm_Mensaje-Error_Nombre-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_2"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Apellido-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_3"/>
+    </classes>
+  </test>
+   <test name="Tests.VerifyForm_Mensaje-Error_CodigoSis-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_4"/>
+    </classes>
+  </test>
+   <test name="Tests.VerifyForm_Mensaje-Error_Telefono-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_5"/>
+    </classes>
+  </test>
+     <test name="Tests.VerifyForm_Mensaje-Error_Contrasenia-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_6"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Email-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_7"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Rol-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_8"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Unidad-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_9"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Facultad-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_10"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Carrera-Vacio">
+    <classes>
+      <class name="Tests.VerifyForm_11"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_CodigoSis-Repetido">
+    <classes>
+      <class name="Tests.VerifyForm_12"/>
+    </classes>
+  </test>
+  <test name="Tests.VerifyForm_Mensaje-Error_Correo-Repetido">
+    <classes>
+      <class name="Tests.VerifyForm_13"/>
+    </classes>
+  </test>
+</suite> 
